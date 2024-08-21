@@ -1,0 +1,31 @@
+.spotify_logo
+{
+    width: 50%;
+}
+.play_button
+{
+    /* height: 45px; */
+    width: 2.3rem;
+    background-color:lightgreen;
+    border-radius: 50%;
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    opacity: 0.8;
+}
+.play_button:hover
+{
+    opacity: 1;
+}
+/* @keyframes button */
+.play_button_bar,.pause_button_bar
+{
+    background-color: antiquewhite;
+    width:  1.3rem;
+    border-radius: 50%;
+    padding: 5px;
+}
+.last_song,.next_song
+{
+    width:  1.3rem;
+}

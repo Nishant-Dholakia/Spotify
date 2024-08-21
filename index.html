@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/logostyle.css">
+    <link rel="stylesheet" href="./css/utility.css">
+</head>
+
+<body>
+    <div class="main flex">
+
+        <div class="left">
+
+            <div class="left_head">
+                <div class="logo">
+                    <h3>
+                        <img class="spotify_logo" src="./svg/logo.svg" alt="Spotify Logo">
+                    </h3>
+                </div>
+                <div class="home">  
+                    <ul class="home_ul">
+                        <li>
+                            <img class="invert" src="./svg/home.svg" alt="Home"> Home
+                        </li>
+                        <li class="hover_white">
+                            <img class="invert" src="./svg/search.svg" alt="search"> Search
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="library ">
+                <div class="library_head hover_white">
+                    <div class="library_write flex">
+                        <img class="invert hover_white" src="./svg/library.svg" alt="Your Library">
+                        <h2>
+                            Your Library
+                        </h2>
+                    </div>
+                    <div class="plus">
+                        +
+                    </div>
+                </div>
+
+                <div class="songlist">
+
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a class="hover_white" href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a>
+                    </div>
+                    <div>
+                        <a class="hover_white" href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp;
+                                Privacy Center</span></a>
+                    </div>
+                    <div>
+                        <a class="hover_white" href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy
+                                Policy</span></a>
+                    </div>
+                    <div>
+                        <a class="hover_white"
+                            href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                    </div>
+                    <div>
+                        <a class="hover_white" href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About
+                                Ads</span></a>
+                    </div>
+                    <div>
+                        <a class="hover_white"
+                            href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="header">
+                <div class="arrow">
+
+                    <img class="invert left_arrow" src="./svg/left_arrow.svg" alt="Left Arrow">
+
+
+                    <img class="invert right_arrow" src="./svg/right_arrow.svg" alt="Right Arrow">
+
+                </div>
+                <div class="register">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="intermediate">
+
+                <div class="showall">Show all</div>
+                <h1>
+                    Popular Artists
+                </h1>
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img class="artistimg" aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV Yn2Ei5QZn19gria6LjZj">
+                    <br>
+                    <h4 class="artist_name">
+                        Pritam
+                    </h4>
+                    <div class="artist_footer">
+                        Artist
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img class="artistimg" aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                    <br>
+                    <h4 class="artist_name">
+                        Arijit Singh
+                    </h4>
+                    <div class="artist_footer">
+                        Artist
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="artistimg" aria-hidden="false" draggable="false" loading="lazy"
+                        src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" data-testid="card-image"
+                        alt=""
+                        class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 MxmW8QkHqHWtuhO589PV yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                    <br>
+                    <h4 class="artist_name">
+                        A.R. Rahman
+                    </h4>
+                    <div class="artist_footer">
+                        Artist
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bar">
+        <div class="songname"></div>
+        <div class="barcenter">
+            <div class="playbar">
+                <img src="./svg/last_song.svg" alt="previous song" class="last_song">
+                <img src="./svg/play_button_bar.svg" alt="play song" class="play_button_bar">
+                <img src="./svg/next_song.svg" alt="next song" class="next_song">
+            </div>
+            <div class="playzone">
+                <div class="playlength">
+                    <div class="finished"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="time">
+                    00:00/00:00
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/play_button.js"></script>
+    <script src="./js/songs.js"></script>
+</body>
+
+</html>
